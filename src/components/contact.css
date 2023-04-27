@@ -1,0 +1,7 @@
+#Contact {
+  background-color: var(--color-bg);
+}
+
+.contact-item {
+  padding: 15px 0;
+}

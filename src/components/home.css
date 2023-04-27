@@ -1,0 +1,69 @@
+.home-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.home-presenting {
+  display: flex;
+  margin-bottom: 50px;
+}
+
+.home-description {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.home-title {
+  font-size: 3rem;
+}
+
+.home-link {
+  display: flex;
+  flex-direction: column;
+}
+
+.home-img {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.home-img-container {
+  border-radius: 100%;
+  width: 100%;
+  max-width: 350px;
+  aspect-ratio: 1;
+  background-color: var(--color-bg);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: var(--shadow-black-light);
+}
+
+.home-skills {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  max-width: 750px;
+  align-self: center;
+}
+
+.skill-title {
+  font-weight: bold;
+}
+
+.skill-item {
+  background-color: var(--color-bg);
+  color: var(--color-link-hover);
+  border-radius: 100%;
+  width: 75px;
+  aspect-ratio: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-style: italic;
+  box-shadow: var(--shadow-black-light);
+}

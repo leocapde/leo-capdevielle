@@ -1,0 +1,24 @@
+#About {
+  background-color: var(--color-bg);
+}
+
+.about-container {
+  display: flex;
+}
+
+.about-img {
+  width: 50%;
+}
+
+.about-description {
+  flex: 1;
+}
+
+@keyframes About-img-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

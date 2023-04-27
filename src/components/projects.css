@@ -1,0 +1,7 @@
+#Projects {
+  background-color: var(--color-bg-light);
+}
+
+.project-item {
+  padding: 25px 0;
+}
