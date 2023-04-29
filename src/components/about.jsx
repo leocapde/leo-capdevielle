@@ -5,7 +5,9 @@ export default function About() {
   return (
     <section id="About">
       <div className="section-container about-container">
-        <img src={logo} className="about-img" alt="logo" />
+        <div className="about-img">
+          <img src={logo} className="about-logo" alt="logo" />
+        </div>
         <div className="about-description">
           <h2>About</h2>
           <div>

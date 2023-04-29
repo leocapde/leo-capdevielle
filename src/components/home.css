@@ -18,9 +18,18 @@
   font-size: 3rem;
 }
 
-.home-link {
+.home-links {
   display: flex;
   flex-direction: column;
+  padding: 25px 0;
+}
+
+.home-link {
+  margin: 10px 0;
+}
+
+.home-link a {
+  font-weight: bold;
 }
 
 .home-img {

@@ -8,17 +8,10 @@
   --color-bg-light: #f9f9f9;
 
   --shadow-black-light: 0 0 10px rgba(0, 0, 0, 0.1);
+
+  --radius-block: 20px;
+  --radius-element: 10px;
 }
-
-/* @media (prefers-color-scheme: dark) { */
-/* :root {
-  --color-text: #fff;
-  --color-link: #61dafb;
-
-  --color-bg: #282c34;
-  --color-bg-light: #373c47;
-} */
-/* } */
 
 body {
   margin: 0;
@@ -36,6 +29,10 @@ code {
     monospace;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 a {
   text-decoration: none;
   color: var(--color-link);
@@ -46,7 +43,7 @@ a:hover {
 }
 
 section {
-  padding: 125px 25px;
+  padding: 100px 25px;
 }
 
 .section-container {

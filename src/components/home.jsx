@@ -13,12 +13,15 @@ export default function App() {
               placeat porro nesciunt minima explicabo id suscipit laudantium,
               quo aperiam commodi, ad voluptates, ipsa veniam.
             </p>
-
-            <div className="home-link">
-              <a href="https://github.com/leocapde">Github</a>
-              <a href="https://www.linkedin.com/in/l%C3%A9o-capdevielle-2467ba18a/">
-                LinkedIn
-              </a>
+            <div className="home-links">
+              <div className="home-link">
+                <a href="https://github.com/leocapde">Github</a>
+              </div>
+              <div className="home-link">
+                <a href="https://www.linkedin.com/in/l%C3%A9o-capdevielle-2467ba18a/">
+                  LinkedIn
+                </a>
+              </div>
             </div>
           </div>
           <div className="home-img">

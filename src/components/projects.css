@@ -2,6 +2,59 @@
   background-color: var(--color-bg-light);
 }
 
-.project-item {
-  padding: 25px 0;
+.project-container {
+  display: flex;
+  padding: 25px;
+  margin: 50px 0;
+  border-radius: var(--radius-block);
+  background-color: var(--color-bg);
+  box-shadow: var(--shadow-black-light);
+}
+
+.project-container-reverse {
+  flex-direction: row-reverse;
+}
+
+.project-img {
+  flex: 6;
+  padding: 25px;
+  border-radius: var(--radius-block);
+  box-shadow: var(--shadow-black-light);
+  cursor: pointer;
+}
+
+.project-infos {
+  flex: 4;
+  padding: 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.project-skills {
+  display: flex;
+  padding: 15px 0;
+}
+
+.project-skill {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 15px;
+  margin: 0 10px;
+  border-radius: var(--radius-element);
+  box-shadow: var(--shadow-black-light);
+}
+
+.project-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 25px;
+}
+
+.project-link a {
+  margin: 0 25px;
+  font-weight: bold;
 }
