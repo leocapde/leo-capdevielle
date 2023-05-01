@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/static/css/main.6bf756e4.css",
+    "main.js": "/static/js/main.cb282766.js",
+    "static/media/leocapde.github.io_P4-Optimisation-SEO_.png": "/static/media/leocapde.github.io_P4-Optimisation-SEO_.6fe3b069c9298d39c004.png",
+    "static/media/leocapde.github.io_P3-Animations-CSS_.png": "/static/media/leocapde.github.io_P3-Animations-CSS_.e58bfeff2a0424dbeb65.png",
+    "static/media/photo-profil.jpeg": "/static/media/photo-profil.4b7714ef36b3457be417.jpeg",
+    "static/media/the-vue-shop.vercel.app_ .png": "/static/media/the-vue-shop.vercel.app_ .8ed14fe756508b595c05.png",
+    "static/media/dev-web.webp": "/static/media/dev-web.821b02eb34c153a550a5.webp",
+    "static/media/leocapde.github.io_Todo-list_.png": "/static/media/leocapde.github.io_Todo-list_.9124b8ae2161cde6a49c.png",
+    "static/media/linkedin-logo.png": "/static/media/linkedin-logo.dee31da8e306dbdc1aba.png",
+    "static/media/github-logo.svg": "/static/media/github-logo.7d6b7d8513e06be0a531dc9303e0bafe.svg",
+    "index.html": "/index.html",
+    "static/media/js-logo.svg": "/static/media/js-logo.acc4642f682cd93a4c20a8a02c0cfa21.svg",
+    "static/media/css-logo.svg": "/static/media/css-logo.6ec1697a406483c72ccf775894d16777.svg",
+    "static/media/html-logo.svg": "/static/media/html-logo.bf6bb1c230f673b1a40c700677243b83.svg",
+    "static/media/vuejs-logo.svg": "/static/media/vuejs-logo.f1fd23be1db9361fbcd81511fe862b08.svg",
+    "static/media/gmail-logo.svg": "/static/media/gmail-logo.cf6e9da6207069eaa596237538127bcb.svg",
+    "static/media/react-logo.svg": "/static/media/react-logo.928f956d9c8ebcffb98a8e917154a81a.svg",
+    "main.6bf756e4.css.map": "/static/css/main.6bf756e4.css.map",
+    "main.cb282766.js.map": "/static/js/main.cb282766.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6bf756e4.css",
+    "static/js/main.cb282766.js"
+  ]
+}
