@@ -31,12 +31,16 @@
   display: flex;
   justify-content: center;
   align-items: flex-start;
+}
 
-  @media (max-width: 992px) {
+@media (max-width: 992px) {
+  .project-img {
     flex: 1;
   }
+}
 
-  @media (max-width: 768px) {
+@media (max-width: 768px) {
+  .project-img {
     aspect-ratio: 16/9;
   }
 }
@@ -52,12 +56,16 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
 
-  @media (max-width: 992px) {
+@media (max-width: 992px) {
+  .project-infos {
     flex: 1;
   }
+}
 
-  @media (max-width: 576px) {
+@media (max-width: 768px) {
+  .project-infos {
     padding: 25px 0;
   }
 }

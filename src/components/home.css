@@ -6,8 +6,10 @@
 .home-presenting {
   display: flex;
   margin-bottom: 50px;
+}
 
-  @media (max-width: 768px) {
+@media (max-width: 768px) {
+  .home-presenting {
     flex-direction: column-reverse;
   }
 }
