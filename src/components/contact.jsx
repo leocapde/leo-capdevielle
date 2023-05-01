@@ -10,9 +10,12 @@ export default function Contact() {
         <h2>Contact</h2>
         <div className="contact-wrapper">
           <div className="contact-item">
-            <div className="contact-item-logo">
+            <a
+              className="contact-item-logo"
+              href="mailto:leo.capde64@gmail.com"
+            >
               <img src={gmail} alt="gmail logo" />
-            </div>
+            </a>
             <div className="contact-item-description">
               <h4 className="contact-item-title">Mail</h4>
               <a href="mailto:leo.capde64@gmail.com">
@@ -22,9 +25,12 @@ export default function Contact() {
           </div>
 
           <div className="contact-item">
-            <div className="contact-item-logo">
+            <a
+              className="contact-item-logo"
+              href="https://www.linkedin.com/in/l%C3%A9o-capdevielle-2467ba18a/"
+            >
               <img src={linkedin} alt="linkedin logo" />
-            </div>
+            </a>
             <div className="contact-item-description">
               <h4 className="contact-item-title">LinkedIn</h4>
               <a href="https://www.linkedin.com/in/l%C3%A9o-capdevielle-2467ba18a/">
@@ -34,9 +40,9 @@ export default function Contact() {
           </div>
 
           <div className="contact-item">
-            <div className="contact-item-logo">
+            <a className="contact-item-logo" href="https://github.com/leocapde">
               <img src={github} alt="github logo" />
-            </div>
+            </a>
             <div className="contact-item-description">
               <h4 className="contact-item-title">GitHub</h4>
               <a href="https://github.com/leocapde">

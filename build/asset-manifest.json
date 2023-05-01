@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.916d92b9.css",
-    "main.js": "/static/js/main.cb282766.js",
+    "main.js": "/static/js/main.7dbdaa9a.js",
     "static/media/leocapde.github.io_P4-Optimisation-SEO_.png": "/static/media/leocapde.github.io_P4-Optimisation-SEO_.6fe3b069c9298d39c004.png",
     "static/media/leocapde.github.io_P3-Animations-CSS_.png": "/static/media/leocapde.github.io_P3-Animations-CSS_.e58bfeff2a0424dbeb65.png",
     "static/media/photo-profil.jpeg": "/static/media/photo-profil.4b7714ef36b3457be417.jpeg",
@@ -18,10 +18,10 @@
     "static/media/gmail-logo.svg": "/static/media/gmail-logo.cf6e9da6207069eaa596237538127bcb.svg",
     "static/media/react-logo.svg": "/static/media/react-logo.928f956d9c8ebcffb98a8e917154a81a.svg",
     "main.916d92b9.css.map": "/static/css/main.916d92b9.css.map",
-    "main.cb282766.js.map": "/static/js/main.cb282766.js.map"
+    "main.7dbdaa9a.js.map": "/static/js/main.7dbdaa9a.js.map"
   },
   "entrypoints": [
     "static/css/main.916d92b9.css",
-    "static/js/main.cb282766.js"
+    "static/js/main.7dbdaa9a.js"
   ]
 }
