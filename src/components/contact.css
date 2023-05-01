@@ -2,6 +2,53 @@
   background-color: var(--color-bg);
 }
 
+.contact-wrapper {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+
+  @media (max-width: 768px) {
+    grid-template-columns: 1fr;
+  }
+}
+
 .contact-item {
-  padding: 15px 0;
+  display: flex;
+  align-items: center;
+  margin: 25px 10px;
+  max-width: 600px;
+}
+
+.contact-item-logo {
+  width: 85px;
+  height: 85px;
+  border-radius: 100%;
+  box-shadow: var(--shadow-black-light);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact-item-logo img {
+  width: 50px;
+}
+
+.contact-item-description {
+  flex: 1;
+  padding-left: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.contact-item-title {
+  margin: 0;
+}
+
+.contact-item-infos {
+  margin: 0;
+  color: var(--color-title);
+}
+
+.contact-item-infos:hover {
+  color: var(--color-link-hover);
 }

@@ -9,18 +9,40 @@
   border-radius: var(--radius-block);
   background-color: var(--color-bg);
   box-shadow: var(--shadow-black-light);
+  height: 350px;
 }
 
 .project-container-reverse {
   flex-direction: row-reverse;
 }
 
+@media (max-width: 768px) {
+  .project-container {
+    flex-direction: column;
+    height: auto;
+  }
+}
+
 .project-img {
   flex: 6;
-  padding: 25px;
   border-radius: var(--radius-block);
   box-shadow: var(--shadow-black-light);
-  cursor: pointer;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+
+  @media (max-width: 992px) {
+    flex: 1;
+  }
+
+  @media (max-width: 768px) {
+    aspect-ratio: 16/9;
+  }
+}
+
+.project-img img {
+  width: 100%;
 }
 
 .project-infos {
@@ -30,6 +52,18 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+
+  @media (max-width: 992px) {
+    flex: 1;
+  }
+
+  @media (max-width: 576px) {
+    padding: 25px 0;
+  }
+}
+
+.project-description {
+  color: var(--color-text-light);
 }
 
 .project-skills {
@@ -49,12 +83,15 @@
 
 .project-link {
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
   margin-top: 25px;
 }
 
 .project-link a {
-  margin: 0 25px;
-  font-weight: bold;
+  margin: 0 10px;
+}
+
+.project-link a i {
+  font-size: 1.2rem;
 }

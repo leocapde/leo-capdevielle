@@ -4,25 +4,46 @@
 
 .about-container {
   display: flex;
+  align-items: center;
+
+  @media (max-width: 768px) {
+    flex-direction: column;
+  }
 }
 
 .about-img {
   flex: 1;
+  border-radius: var(--radius-block);
+  background-color: var(--color-bg-light);
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  aspect-ratio: 1;
+
+  @media (max-width: 768px) {
+    max-width: 500px;
+  }
 }
 
 .about-logo {
-  animation: About-logo-spin 20s linear infinite;
+  height: 100%;
 }
 
 .about-description {
   flex: 1;
+  padding: 25px;
+
+  @media (max-width: 576px) {
+    padding: 0;
+  }
 }
 
-@keyframes About-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.about-description h3 {
+  font-size: 1.4rem;
+}
+
+.about-text {
+  color: var(--color-text-light);
 }

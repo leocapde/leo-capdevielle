@@ -1,4 +1,4 @@
-import logo from "../assets/logo.svg";
+import devWeb from "../assets/dev-web.webp";
 import "./about.css";
 
 export default function About() {
@@ -6,23 +6,23 @@ export default function About() {
     <section id="About">
       <div className="section-container about-container">
         <div className="about-img">
-          <img src={logo} className="about-logo" alt="logo" />
+          <img src={devWeb} className="about-logo" alt="ordinateur portable" />
         </div>
         <div className="about-description">
-          <h2>About</h2>
-          <div>
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Unde harum
-            veniam mollitia. Impedit quasi dignissimos reprehenderit unde
-            consequuntur commodi? Laborum alias sunt eos placeat dolores
-            voluptates accusantium doloribus maiores quis nulla possimus vero,
-            quibusdam magni maxime recusandae reiciendis culpa quisquam eveniet
-            sint at! Fuga odio quasi minima rem. Eos atque perferendis neque ab
-            inventore praesentium veniam distinctio quis vero odit aspernatur
-            porro architecto culpa numquam ipsa quibusdam sequi perspiciatis
-            laboriosam, ea nulla amet molestiae quaerat? Facilis iusto, totam
-            labore doloribus dolor unde ratione consequuntur, voluptate minima
-            consequatur a, dolores quasi pariatur nisi accusantium suscipit
-            soluta error inventore eius consectetur! Animi!
+          <h2>About me</h2>
+          <h3>Un jeune développeur web pour tous vos projets 👨🏼‍💻</h3>
+          <div className="about-text">
+            En tant que développeur web junior, je possède toutes les
+            compétences nécessaires en HTML, CSS et JavaScript.
+            <br />
+            Au cours de mon apprentissage j’ai pu me perfectionner dans
+            différentes librairies et frameworks front-end tels que React ou
+            bien VueJS. J’ai également eu l’occasion de découvrir l'univers du
+            back-end en créant notament des API REST grâce à NodeJS.
+            <br />
+            Tous les projets que j'ai réalisés m'ont tous permis d'acquérir
+            aujourd'hui le nécessaires pour créer et maintenir de sites web
+            réactifs tout en offrant une expérience utilisateur incroyable.
           </div>
         </div>
       </div>

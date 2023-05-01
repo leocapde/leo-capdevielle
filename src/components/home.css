@@ -6,16 +6,24 @@
 .home-presenting {
   display: flex;
   margin-bottom: 50px;
+
+  @media (max-width: 768px) {
+    flex-direction: column-reverse;
+  }
 }
 
 .home-description {
-  flex: 1;
+  flex: 6;
   display: flex;
   flex-direction: column;
 }
 
 .home-title {
-  font-size: 3rem;
+  font-size: 3.2rem;
+}
+
+.home-text {
+  color: var(--color-text-light);
 }
 
 .home-links {
@@ -25,7 +33,7 @@
 }
 
 .home-link {
-  margin: 10px 0;
+  font-size: 1.2rem;
 }
 
 .home-link a {
@@ -33,7 +41,7 @@
 }
 
 .home-img {
-  flex: 1;
+  flex: 4;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -49,24 +57,24 @@
   justify-content: center;
   align-items: center;
   box-shadow: var(--shadow-black-light);
+  overflow: hidden;
+}
+
+.home-img-container img {
+  object-fit: contain;
+  max-width: 100%;
 }
 
 .home-skills {
   display: flex;
-  justify-content: space-between;
   align-items: center;
-  width: 100%;
-  max-width: 750px;
+  flex-wrap: wrap;
   align-self: center;
-}
-
-.skill-title {
-  font-weight: bold;
+  padding-top: 50px;
 }
 
 .skill-item {
   background-color: var(--color-bg);
-  color: var(--color-link-hover);
   border-radius: 100%;
   width: 75px;
   aspect-ratio: 1;
@@ -75,4 +83,11 @@
   align-items: center;
   font-style: italic;
   box-shadow: var(--shadow-black-light);
+  margin: 5px 10px;
+  padding: 5px;
+}
+
+.skill-item img {
+  object-fit: contain;
+  width: 40px;
 }
