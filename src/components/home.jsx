@@ -5,6 +5,8 @@ import js from "../assets/skills/js-logo.svg";
 import react from "../assets/skills/react-logo.svg";
 import vuejs from "../assets/skills/vuejs-logo.svg";
 import nodejs from "../assets/skills/nodejs-logo.png";
+
+import cv from "../assets/cv-leo-capdevielle.pdf";
 import "./home.css";
 
 export default function App() {
@@ -30,6 +32,12 @@ export default function App() {
                 <a href="https://github.com/leocapde">
                   Github {""}
                   <i className="fa-brands fa-github"></i>
+                </a>
+              </div>
+              <div className="home-link">
+                <a href={cv} download>
+                  CV {""}
+                  <i className="fa-solid fa-download"></i>
                 </a>
               </div>
             </div>
