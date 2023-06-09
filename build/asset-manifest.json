@@ -1,13 +1,14 @@
 {
   "files": {
     "main.css": "/static/css/main.916d92b9.css",
-    "main.js": "/static/js/main.7dbdaa9a.js",
+    "main.js": "/static/js/main.fdf6d7bd.js",
     "static/media/leocapde.github.io_P4-Optimisation-SEO_.png": "/static/media/leocapde.github.io_P4-Optimisation-SEO_.6fe3b069c9298d39c004.png",
     "static/media/leocapde.github.io_P3-Animations-CSS_.png": "/static/media/leocapde.github.io_P3-Animations-CSS_.e58bfeff2a0424dbeb65.png",
-    "static/media/photo-profil.jpeg": "/static/media/photo-profil.4b7714ef36b3457be417.jpeg",
     "static/media/the-vue-shop.vercel.app_ .png": "/static/media/the-vue-shop.vercel.app_ .8ed14fe756508b595c05.png",
+    "static/media/cv-leo-capdevielle.pdf": "/static/media/cv-leo-capdevielle.ba68aee9515e729d23fb.pdf",
+    "static/media/photo-profil.jpeg": "/static/media/photo-profil.4e9e48594d3b56090f07.jpeg",
     "static/media/dev-web.webp": "/static/media/dev-web.821b02eb34c153a550a5.webp",
-    "static/media/leocapde.github.io_Todo-list_.png": "/static/media/leocapde.github.io_Todo-list_.9124b8ae2161cde6a49c.png",
+    "static/media/my-sandbox-two.vercel.app_.png": "/static/media/my-sandbox-two.vercel.app_.fa1b057d388272678e93.png",
     "static/media/linkedin-logo.png": "/static/media/linkedin-logo.dee31da8e306dbdc1aba.png",
     "static/media/github-logo.svg": "/static/media/github-logo.7d6b7d8513e06be0a531dc9303e0bafe.svg",
     "index.html": "/index.html",
@@ -18,10 +19,10 @@
     "static/media/gmail-logo.svg": "/static/media/gmail-logo.cf6e9da6207069eaa596237538127bcb.svg",
     "static/media/react-logo.svg": "/static/media/react-logo.928f956d9c8ebcffb98a8e917154a81a.svg",
     "main.916d92b9.css.map": "/static/css/main.916d92b9.css.map",
-    "main.7dbdaa9a.js.map": "/static/js/main.7dbdaa9a.js.map"
+    "main.fdf6d7bd.js.map": "/static/js/main.fdf6d7bd.js.map"
   },
   "entrypoints": [
     "static/css/main.916d92b9.css",
-    "static/js/main.7dbdaa9a.js"
+    "static/js/main.fdf6d7bd.js"
   ]
 }
